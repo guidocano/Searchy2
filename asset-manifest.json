@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/guidocano/Searchy2/static/css/main.d2cf6e9e.css",
+    "main.js": "/guidocano/Searchy2/static/js/main.74ec53f6.js",
+    "index.html": "/guidocano/Searchy2/index.html",
+    "main.d2cf6e9e.css.map": "/guidocano/Searchy2/static/css/main.d2cf6e9e.css.map",
+    "main.74ec53f6.js.map": "/guidocano/Searchy2/static/js/main.74ec53f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2cf6e9e.css",
+    "static/js/main.74ec53f6.js"
+  ]
+}
