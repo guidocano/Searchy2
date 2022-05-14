@@ -1,0 +1,43 @@
+html{
+    margin-left: 25%;
+    margin-top: 9%;
+}
+
+
+
+i {
+    color: rgb(99, 97, 97);
+    font-size: 40px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.err{
+    color: rgb(99, 97, 97);
+    font-size: 12px;
+}
+
+a{
+    font-size: 12px;  
+}
+
+.try{
+    font-size: 17px;
+}
+
+.try.try2{
+    margin-bottom: -12px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width: 640px) {
+
+    html{
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
+
+}
