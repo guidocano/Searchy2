@@ -7,9 +7,11 @@ import ImageList from "./ImageList";
 
 
 // class App extends React.Component {
+//     state = { images: []}
+
 //     onSearchSubmit(term){
 //         axios
-//         .get("https://api.unsplash.com/search/photos", {
+//         .get("/search/photos", {
 //             params: {query: term},
 //             headers: {
 //                 Authorization: "Client-ID 02I8FQ9uaVaAUS02-3etTBpDVaJtMtgolfRI1ikDFGo"
@@ -31,6 +33,8 @@ class App extends React.Component {
         });
 
         this.setState({images: response.data.results});
+
+
     }
 
 

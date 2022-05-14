@@ -11,6 +11,15 @@
     padding-bottom: 5px;
 }
 
+.not-found {
+    position: fixed;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+
 /* RESPONSIVE */
 @media screen and (max-width: 640px) {
 
@@ -24,8 +33,9 @@
 
     .image-list img {
         width: 95vw;
-        height:fit-content;
         padding-bottom: 5px;
         margin-left: 10px;
     }
+
+
 }

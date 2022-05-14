@@ -38,7 +38,7 @@ class SearchBar extends React.Component {
                         type="text"
                         value={this.state.term}
                         onChange={(e) => this.setState({term: e.target.value})}
-                        autocomplete="off" 
+                        autoComplete="off" 
                         id="fname" 
                         name="fname" />
 
@@ -52,6 +52,7 @@ class SearchBar extends React.Component {
                     <div className="button" onClick={this.onFormSubmit}>I'm Feeling Lucky</div>
 
                 </div>
+
             </div>
 
         )

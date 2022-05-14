@@ -99,6 +99,7 @@ nav a:hover{
     left:0;
     right:0;
     text-align: center;
+    background-color: white;
 }
 
 .buttonsNew{
@@ -200,6 +201,15 @@ input:hover, input:focus {
     border: rgb(247, 244, 244) solid 1.5px;
 }
 
+.not-found {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.found {
+    display:none;
+}
+
 /* Footer */
 
 footer{
@@ -251,6 +261,7 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     .navy-left{
         visibility: visible;
         margin-top:5px;
+        z-index: 999;
     }
 
     .navychild{
@@ -266,8 +277,14 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
     h1{
         font-size: 70px;
         padding-bottom: 10px;
+        z-index: 999;
     }
 
+    .h1{
+        z-index: 999;
+    }
+
+ 
     .h1New{
         margin-top:50px;
         display: flex;
@@ -275,18 +292,29 @@ input[type="search"]::-webkit-search-results-decoration { display: none; }
         font-size: 40px;
         padding-bottom: 10px;
         margin-left: 0px;
+        z-index: 999;
     }
 
+    form {
+        z-index: -100;
+        height: 1px;
+    }
 
     form input {
         margin-top:40px;
         width: 90vw;
         max-width: 90vw;
         height: 40px;
+        z-index: -1;
     }
 
     form input:hover {
         box-shadow: none;
+        z-index: -1;
+    }
+
+    input{
+        z-index: -1;
     }
 
     .buttons{
