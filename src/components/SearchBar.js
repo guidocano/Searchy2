@@ -18,7 +18,7 @@ class SearchBar extends React.Component {
             <div className={this.state.classLogo}>
 
                 <div className={this.state.classh1}>
-                    <a href="../index.html">
+                    <a href="index.html">
                         <span style={{color: "rgb(66, 66, 221)"}}>S</span>
                         <span style={{color: "rgb(22, 122, 216)"}}>e</span>
                         <span style={{color: "rgb(130, 194, 255)"}}>a</span>
